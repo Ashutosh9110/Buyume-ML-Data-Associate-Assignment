@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 25
+names: ['cars', 'cars10', 'cars11', 'cars12', 'cars13', 'cars14', 'cars15', 'cars16', 'cars17', 'cars18', 'cars19', 'cars2', 'cars20', 'cars21', 'cars22', 'cars23', 'cars24', 'cars25', 'cars3', 'cars4', 'cars5', 'cars6', 'cars7', 'cars8', 'cars9']
+
+roboflow:
+  workspace: test-asvdx
+  project: car-recognition-2tsm2
+  version: 3
+  license: Public Domain
+  url: https://universe.roboflow.com/test-asvdx/car-recognition-2tsm2/dataset/3
